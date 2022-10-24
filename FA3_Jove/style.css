@@ -1,0 +1,40 @@
+body{
+	background-image: url(images/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align:center;
+    background-color:#ff7f50;
+    font-family:verdana;
+    border:2px dotted blue;
+    padding:10px 15px;
+    width:250px;
+    margin:auto;
+    margin-bottom:20px;
+}
+p{
+    text-align:justify;
+    background-color:rgb(94, 112, 156);
+    font-style:italic;
+    border:3px black;
+    border-top-style:dotted;
+    border-right-style:double;
+    border-bottom-style:dashed;
+    border-left-style:solid;
+    width:500px;
+    margin:auto;
+    padding:20px;
+        
+}
+
+span{
+    font-weight:bold;
+    font-style:italic;
+    color:rgb(130, 100, 100);
+    margin-left:2px;
+    margin-right:5px;
+}
