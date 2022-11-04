@@ -1,0 +1,70 @@
+.margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.panel {
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    color: black;   
+    position: fixed;
+    display: block;
+    padding: 10px 20px;
+    position: sticky;
+}
+.panel a{
+    color: black;
+    text-decoration: none;
+}
+.panel span:hover{
+    text-decoration: underline;
+}
+.sidenav {
+    height: 100%; 
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    right: 0;
+    background-color: rgb(255, 255, 255); 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    border-left: 1px solid black;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+  }
+  
+  
+  .sidenav a:hover {
+    color: #000000;
+  }
+  
+ 
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .selector {
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    margin-left: 70px;
+  }
+  .selector a {
+    color: black;
+    text-decoration: none;
+  }
+  .selector:hover {
+    background-color: rgb(189, 189, 189);
+  }
