@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+            *{
+                text-align: center;
+            }
+        
+            #image {
+                width: 50vh;
+                height: 70vh;
+            }
+            </style>
+        </head>
+
+        <body>
+            <img id="image" src="">  
+            <button id="btn1" onclick="img1()"> banana </button>
+            <button id="btn2" onclick="img2()"> jummy </button>
+
+            <script>
+                function img1(){
+                    document.getElementById("image").src = "images/image1.png";
+                }
+                function img2(){
+                    document.getElementById("image").src = "images/image2.png";
+                }
+            </script>
+        </body>
+    </html>
