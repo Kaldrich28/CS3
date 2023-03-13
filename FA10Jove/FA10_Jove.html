@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+		    var x = Math.floor(Math.random() * 1000);
+		    var name = x.toString();
+		    document.write("Randomly Generated number: " + x + "<br>");
+	
+		    var a = name[0] * 100;
+		    var b = name[1] * 10;
+		    var c = name[2]; 
+		    var d = name.length;
+		
+		        if (d == 2) {
+		            a = "0";
+		            b = name[0] * 10;
+		            c = name[1];
+		    }
+		        document.write("Breakdown: " + a +", " + c +", " + a);
+
+		</script>
+	</body>
+</html>
