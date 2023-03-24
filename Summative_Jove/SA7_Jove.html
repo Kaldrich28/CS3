@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Numerology</title>
+		<!-- provide the necessary meta tags -->
+        <style>
+        	body {background: lightblue; 
+            	text-align: center;
+            	font-family: arial;
+                color: navy;
+            }
+            button {padding: 10px; background:violet }
+            span {font-size: 0.5em; color: maroon}
+        </style>
+
+	</head>
+<body>
+	<h1> Your Fortune is in your name </h1>
+	<h2> Your Name is: <span id="thename"> </span></h2>
+    <h2> Today's fortune: <span id="fortune"> </span></h2>
+    
+    <button onclick="showFortune()"> Click here to enter your name </button>
+ 	<script>
+ 		function showFortune() {
+    		const name = prompt("Enter your full name:");
+    		document.getElementById("thename").textContent = name;
+    	
+			let sum = 0;
+   				for(let i=0; i<name.length; i++) {
+        		if(name[i].match(/[a-zA-Z]/)) {
+            		sum += name[i].toUpperCase().charCodeAt(0) - 64;
+        		} else if(name[i].match(/[0-9]/)) {
+            		sum += parseInt(name[i]);
+        		}
+    		}
+    			while(sum > 9) {
+       				let x = sum;
+        			sum = 0;
+        		while(x > 0) {
+            		sum += x % 10;
+            		x = Math.floor(x / 10);
+        		}
+    		}
+			let fortune;
+			switch(sum) {
+				case 0:
+					fortune = "You have a secret admirer.";
+					break;
+				case 1:
+					fortune = "Soon you will be sitting on top of the world.";
+					break;
+				case 2:
+					fortune = "You will be rewarded for you efforts within the month.";
+					break;
+				case 3:
+					fortune = "Doors will be opening for you in many areas of your life.";
+					break;
+				case 4:
+					fortune = "Good News is coming soon.";
+					break;
+				case 5:
+					fortune = "Your life will be filled with magical moments.";
+					break;
+				case 6:
+					fortune = "True Love will eventually come to you.";
+					break;
+				case 7:
+					fortune = "Your hard work will pay off today.";
+					break;
+				case 8:
+					fortune = "Do what you love. The rest will fall into place.";
+					break;
+				case 9:
+					fortune = "Follow what calls you.";
+					break;
+			}
+			document.getElementById("fortune").textContent = fortune;
+		}
+	</script>    
+</body>
