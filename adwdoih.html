@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiple Choice Quiz</title>
+</head>
+<body>
+	<h1>Multiple Choice Quiz</h1>
+
+	<form id="questionnaireForm">
+		<fieldset>
+			<legend>Question 1</legend>
+			<p>If a number <i>n</i> is odd, which of the following must be odd?</p>
+			<div id="choice1">
+				<input type="radio" class="options" name="question1" id="option1" value="a" required />
+				<label class="options" for="option1">A. n + 1</label>
+				
+				<input type="radio" class="options" name="question1" id="option2" value="b" required />
+				<label class="options" for="option2">B. n/2</label>
+				
+				<input type="radio" class="options" name="question1" id="option3" value="c" required />
+				<label class="options" for="option3">C. n + 2</label>
+
+				<input type="radio" class="options" name="question1" id="option4" value="d" required />
+				<label class="options" for="option4">D. n - 1</label>
+
+				<p class="feedback" id="no1Feedback"></p>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Question 2</legend>
+			<p>The sum of the first 100 natural numbers is 5050. What is the sum of the first 100 even natural numbers? </p>
+			<div id="choice2">
+				<input type="radio" class="options" name="question2" id="option5" value="a" required />
+				<label class="options" for="option5">A. 200</label>
+				
+				<input type="radio" class="options" name="question2" id="option6" value="b" required />
+				<label class="options" for="option6">B. 2525</label>
+				
+				<input type="radio" class="options" name="question2" id="option7" value="c" required />
+				<label class="options" for="option7">C. 10100</label>
+
+				<input type="radio" class="options" name="question2" id="option8" value="d" required />
+				<label class="options" for="option8">D. 5250</label>
+
+				<p class="feedback" id="no2Feedback"></p>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Question 3</legend>
+			<p>If 0.2p = 4, then 4p = ?</p>
+			<div id="choice3">
+				<input type="radio" class="options" name="question3" id="option9" value="a" required />
+				<label class="options" for="option9">A. 2</label>
+				
+				<input type="radio" class="options" name="question3" id="option10" value="b" required />
+				<label class="options" for="option10">B. 8</label>
+				
+				<input type="radio" class="options" name="question3" id="option11" value="c" required />
+				<label class="options" for="option11">C. 40</label>
+
+				<input type="radio" class="options" name="question3" id="option12" value="d" required />
+				<label class="options" for="option12">D. 80</label>
+
+				<p class="feedback" id="no3Feedback"></p>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Question 4</legend>
+			<p>Jamal, Mauro, and Julian went grocery shopping. Jamal spent three times as much as Mauro and half as much as Julian. If they spent a total of ₱5,000 on groceries, how much did Julian spend?</p>
+			<div id="choice4">
+				<input type="radio" class="options" name="question4" id="option13" value="a" required />
+				<label class="options" for="option13">A. ₱2000</label>
+				
+				<input type="radio" class="options" name="question4" id="option14" value="b" required />
+				<label class="options" for="option14">B. ₱2500</label>
+				
+				<input type="radio" class="options" name="question4" id="option15" value="c" required />
+				<label class="options" for="option15">C. ₱3000</label>
+
+				<input type="radio" class="options" name="question4" id="option16" value="d" required />
+				<label class="options" for="option16">D. ₱4500</label>
+
+				<p class="feedback" id="no4Feedback"></p>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Question 5</legend>
+			<p>Triangle PQR has sides measuring 6, 5, and <i>n</i>. Which of the following CANNOT be a value of <i>n</i>?</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question5" id="option17" value="a" required />
+				<label class="options" for="option17">A. 1</label>
+				
+				<input type="radio" class="options" name="question5" id="option18" value="b" required />
+				<label class="options" for="option18">B. 2</label>
+				
+				<input type="radio" class="options" name="question5" id="option19" value="c" required />
+				<label class="options" for="option19">C. 5</label>
+
+				<input type="radio" class="options" name="question5" id="option20" value="d" required />
+				<label class="options" for="option20">D. 6</label>
+
+				<p class="feedback" id="no5Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 6</legend>
+			<p>The smallest five-digit number without repeated digits is subtracted from the greatest five-digit number without repeated digits Find the difference.</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question6" id="option21" value="a" required />
+				<label class="options" for="option21">A. 86,420</label>
+				
+				<input type="radio" class="options" name="question6" id="option22" value="b" required />
+				<label class="options" for="option22">B. 86,731</label>
+				
+				<input type="radio" class="options" name="question6" id="option23" value="c" required />
+				<label class="options" for="option23">C. 88,522</label>
+
+				<input type="radio" class="options" name="question6" id="option24" value="d" required />
+				<label class="options" for="option24">D. 88,531</label>
+
+				<p class="feedback" id="no6Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 7</legend>
+			<p>Carla had twice as much money as Vida. After Carla gave ₱12.00 to Vida, Carla Still has ₱10 more than Vida. How much was was the total money of the two girls in the beginning?</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question7" id="option25" value="a" required />
+				<label class="options" for="option25">A. ₱76</label>
+				
+				<input type="radio" class="options" name="question7" id="option26" value="b" required />
+				<label class="options" for="option26">B. ₱68</label>
+				
+				<input type="radio" class="options" name="question7" id="option27" value="c" required />
+				<label class="options" for="option27">C. ₱93</label>
+
+				<input type="radio" class="options" name="question7" id="option28"value="d" required />
+				<label class="options" for="option28">D. ₱102</label>
+
+				<p class="feedback" id="no7Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 8</legend>
+			<p>If <i>x</i> is a whole number greater than 1, and the product of <i>x</i> and <i>x</i> + 4 is odd, then <i>x</i> must be</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question8" id="option29" value="a" required />
+				<label class="options" for="option29">A. even</label>
+				
+				<input type="radio" class="options" name="question8" id="option30" value="b" required />
+				<label class="options" for="option30">B. odd</label>
+				
+				<input type="radio" class="options" name="question8" id="option31" value="c" required />
+				<label class="options" for="option31">C. prime</label>
+
+				<input type="radio" class="options" name="question8" id="option32" value="d" required />
+				<label class="options" for="option32">D. a factor of 8</label>
+
+				<p class="feedback" id="no8Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 9</legend>
+			<p>If <i>m</i> is a natural number less than 3, then which of the following could be a factor of the product of <i>m</i> and <i>m</i> + 1?</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question9" id="option33" value="a" required />
+				<label class="options" for="option33">A. 3</label>
+				
+				<input type="radio" class="options" name="question9" id="option34" value="b" required />
+				<label class="options" for="option34">B. 4</label>
+				
+				<input type="radio" class="options" name="question9" id="option35" value="c" required />
+				<label class="options" for="option35">C. 5</label>
+
+				<input type="radio" class="options" name="question9" id="option36" value="d" required />
+				<label class="options" for="option36">D. 8</label>
+
+				<p class="feedback" id="no9Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 10</legend>
+			<p>Mrs. Venus bought 200 pens at 25 for ₱80.00. She sold all of them at 4 for ₱20.00. How much profit did she make?</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question10 id="option37" value="a" required />
+				<label class="options" for="option37">A. ₱300</label>
+				
+				<input type="radio" class="options" name="question10" id="option38" value="b" required />
+				<label class="options" for="option38">B. ₱360</label>
+				
+				<input type="radio" class="options" name="question10" id="option39" value="c" required />
+				<label class="options" for="option39">C. ₱400</label>
+
+				<input type="radio" class="options" name="question10" id="option40" value="d" required />
+				<label class="options" for="option40">D. ₱420</label>
+
+				<p class="feedback" id="no10Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 11</legend>
+			<p>Four liters of apple juice are mixed with 5 liters of carrot juice and 3 liters of orange juice. What part of the total mixture is apple juice?</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question11" id="option41" value="a" required />
+				<label class="options" for="option41">A. 1/6</label>
+				
+				<input type="radio" class="options" name="question11" id="option42" value="b" required />
+				<label class="options" for="option42">B. 1/2</label>
+				
+				<input type="radio" class="options" name="question11" id="option43" value="c" required />
+				<label class="options" for="option43">C. 1/4</label>
+
+				<input type="radio" class="options" name="question11" id="option44" value="d" required />
+				<label class="options" for="option44">D. 4/9</label>
+
+				<p class="feedback" id="no11Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 12</legend>
+			<p>If Jonathan divided 210 mangoes into baskets containing the same number of mangoes, then each of the following could be the number of mangoes per beat EXCEPT</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question12" id="option45" value="a" required />
+				<label class="options" for="option45">A. 35</label>
+				
+				<input type="radio" class="options" name="question12" id="option46" value="b" required />
+				<label class="options" for="option46">B. 21</label>
+				
+				<input type="radio" class="options" name="question12" id="option47" value="c" required />
+				<label class="options" for="option47">C. 20</label>
+
+				<input type="radio" class="options" name="question12" id="option48" value="d" required />
+				<label class="options" for="option48">D. 15</label>
+
+				<p class="feedback" id="no12Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 13</legend>
+			<p>Which of the following can be expressed as the product of two consecutive even numbers?</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question13" id="option49" value="a" required />
+				<label class="options" for="option49">A. 30</label>
+				
+				<input type="radio" class="options" name="question13" id="option50" value="b" required />
+				<label class="options" for="option50">B. 36</label>
+				
+				<input type="radio" class="options" name="question13" id="option51" value="c" required />
+				<label class="options" for="option51">C. 48</label>
+
+				<input type="radio" class="options" name="question13" id="option52" value="d" required />
+				<label class="options" for="option52">D. 60</label>
+
+				<p class="feedback" id="no13Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 14 </legend>
+			<p>King and Raymond together weigh 130 kg. Raymond and Erika together weigh 104 kg. All three together weigh 180 kg. What is Raymond's weight? </p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question14" id="option53" value="a" required />
+				<label class="options" for="option53">A. 50 kg</label>
+				
+				<input type="radio" class="options" name="question14" id="option54" value="b" required />
+				<label class="options" for="option54">B. 54 kg</label>
+				
+				<input type="radio" class="options" name="question14" id="option55" value="c" required />
+				<label class="options" for="option55">C. 63 kg</label>
+
+				<input type="radio" class="options" name="question14" id="option56" value="d" required />
+				<label class="options" for="option56">D. 76 kg</label>
+
+				<p class="feedback" id="no14Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 15</legend>
+			<p>Four janitors can wash all the windows in a learning school in 24 minutes. The janitors all work at the same rate. How long would it take 8 janitors, working at the same rate, to wash all the windows in the learning school?</p>
+			<div id="choice5">
+				<input type="radio" class="options" name="question15" id="option58" value="a" required />
+				<label class="options" for="option58">A. 96 minutes</label>
+				
+				<input type="radio" class="options" name="question15" id="option59" value="b" required />
+				<label class="options" for="option59">B. 32 minutes</label>
+				
+				<input type="radio" class="options" name="question15" id="option60" value="c" required />
+				<label class="options" for="option60">C. 20 mins</label>
+
+				<input type="radio" class="options" name="question15" id="option61" value="d" required />
+				<label class="options" for="option61">D. 12 mins</label>
+
+				<p class="feedback" id="no15Feedback"></p>
+			</div>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 16</legend>
+			<p>90 is _____% of 75% of 600. <input type="text" class="answer" name="question6" required /></p>
+			<p class="feedback" id="no6Feedback"></p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Question 17</legend>
+			<p>18 ÷ 3 × 2 − 8 ÷ 2 + 2 = ___. <input type="text" class="answer" name="question7" required /></p>
+			<p class="feedback" id="no7Feedback"></p>
+		</fieldset>
+    
+    <fieldset>
+			<legend>Question 18</legend>
+			<p>If the sum of two numbers is 14, and their difference is 4. Then, their product must be ___.<input type="text" class="answer" name="question6" required /></p>
+			<p class="feedback" id="no6Feedback"></p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Question 19</legend>
+			<p>___ is the least number of the three consecutive even numbers that has an average of 522. <input type="text" class="answer" name="question7" required /></p>
+			<p class="feedback" id="no7Feedback"></p>
+		</fieldset>
+
+    <fieldset>
+			<legend>Question 20</legend>
+			<p>20% of a number is 10, and the 10% of that number is ___. <input type="text" class="answer" name="question6" required /></p>
+			<p class="feedback" id="no6Feedback"></p>
+		</fieldset>
+
+		<input type="submit" value="Submit" onclick="checkAnswers(event)" />
+		<input type="button" value="Reset" onclick="resetForm()" />
+
+		<p id="totalScore">Total Score: 0/20</p>
+	</form>
+
+	<script>
+		function checkAnswers(event) {
+			event.preventDefault();
+			const no1Answer = document.querySelector('input[name="question1"]:checked').value;
+			const no2Answer = document.querySelector('input[name="question2"]:checked').value;
+			const no3Answer = document.querySelector('input[name="question3"]:checked').value;
+			const no4Answer = document.querySelector('input[name="question4"]:checked').value;
+			const no5Answer = document.querySelector('input[name="question5"]:checked').value;
+      const no6Answer = document.querySelector('input[name="question6"]:checked').value;
+			const no7Answer = document.querySelector('input[name="question7"]:checked').value;
+			const no8Answer = document.querySelector('input[name="question8"]:checked').value;
+			const no9Answer = document.querySelector('input[name="question9"]:checked').value;
+			const no10Answer = document.querySelector('input[name="question10"]:checked').value;
+      const no11Answer = document.querySelector('input[name="question11"]:checked').value;
+			const no12Answer = document.querySelector('input[name="question12"]:checked').value;
+			const no13Answer = document.querySelector('input[name="question13"]:checked').value;
+			const no14Answer = document.querySelector('input[name="question14"]:checked').value;
+			const no15Answer = document.querySelector('input[name="question15"]:checked').value;
+			const no16Answer = parseInt(document.querySelector('input[name="question16"]').value);
+			const no17Answer = parseInt(document.querySelector('input[name="question17"]').value);
+			const no18Answer = parseInt(document.querySelector('input[name="question18"]').value);
+			const no19Answer = parseInt(document.querySelector('input[name="question19"]').value);
+      const no20Answer = parseInt(document.querySelector('input[name="question20"]').value);
+
+
+			// Check answers and provide feedback
+			document.getElementById('no1Feedback').innerHTML = no1Answer === 'c' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no2Feedback').innerHTML = no2Answer === 'c' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no3Feedback').innerHTML = no3Answer === 'd' ? 'Correct!' : 'Incorrect! The correct answer is D.';
+			document.getElementById('no4Feedback').innerHTML = no4Answer === 'c' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no5Feedback').innerHTML = no5Answer === 'a' ? 'Correct!' : 'Incorrect! The correct answer is A.';
+      document.getElementById('no6Feedback').innerHTML = no6Answer === 'd' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no7Feedback').innerHTML = no7Answer === 'd' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no8Feedback').innerHTML = no8Answer === 'b' ? 'Correct!' : 'Incorrect! The correct answer is D.';
+			document.getElementById('no9Feedback').innerHTML = no9Answer === 'a' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no10Feedback').innerHTML = no10Answer === 'b' ? 'Correct!' : 'Incorrect! The correct answer is A.';
+      document.getElementById('no11Feedback').innerHTML = no11Answer === 'c' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no12Feedback').innerHTML = no12Answer === 'c' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no13Feedback').innerHTML = no13Answer === 'c' ? 'Correct!' : 'Incorrect! The correct answer is D.';
+			document.getElementById('no14Feedback').innerHTML = no14Answer === 'b' ? 'Correct!' : 'Incorrect! The correct answer is C.';
+			document.getElementById('no15Feedback').innerHTML = no15Answer === 'd' ? 'Correct!' : 'Incorrect! The correct answer is A.';
+      document.getElementById('no16Feedback').innerHTML = no6Answer === '20%' ? 'Correct!' : 'Incorrect! The correct answer is 20%.';
+			document.getElementById('no17Feedback').innerHTML = no7Answer === '4' ? 'Correct!' : 'Incorrect! The correct answer is 4.';
+      document.getElementById('no18Feedback').innerHTML = no6Answer === '45' ? 'Correct!' : 'Incorrect! The correct answer is 45.';
+			document.getElementById('no19Feedback').innerHTML = no7Answer === '256' ? 'Correct!' : 'Incorrect! The correct answer is 256.';
+      document.getElementById('no20Feedback').innerHTML = no6Answer === '5' ? 'Correct!' : 'Incorrect! The correct answer is 5.';
+		
+
+			// Calculate and display total score
+			const totalScore = (no1Answer === 'c' ? 1 : 0) + (no2Answer === 'b' ? 1 : 0) + (no3Answer === 'c' ? 1 : 0) + (no4Answer === 'b' ? 1 : 0) + (no5Answer === 'a' ? 1 : 0)  + (no6Answer === 'd' ? 1 : 0) + (no7Answer === 'd' ? 1 : 0) + (no8Answer === 'b' ? 1 : 0) + (no9Answer === 'a' ? 1 : 0) + (no10Answer === 'b' ? 1 : 0) + (no11Answer === 'c' ? 1 : 0) + (no12Answer === 'c' ? 1 : 0) + (no13Answer === 'c' ? 1 : 0) + (no14Answer === 'b' ? 1 : 0) + (no15Answer === 'd' ? 1 : 0)  + (no15Answer === 'd' ? 1 : 0) + (no16Answer === '20%' ? 1 : 0) + (no17Answer === '4' ? 1 : 0) + (no18Answer === '45' ? 1 : 0) + (no19Answer === '256' ? 1 : 0)  + (no15Answer === '5' ? 1 : 0);
+			document.getElementById('totalScore').innerHTML = 'Total Score: ' + totalScore + '/20';
+		}
+
+		function resetForm() {
+			document.getElementById('questionnaireForm').reset();
+			const feedbackElements = document.getElementsByClassName('feedback');
+			for (let i = 0; i < feedbackElements.length; i++) {
+				feedbackElements[i].innerHTML = '';
+			}
+
+			document.getElementById('totalScore').innerHTML = '';
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
